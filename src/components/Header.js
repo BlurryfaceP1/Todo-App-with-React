@@ -2,16 +2,22 @@ import React from 'react';
 import styled from 'styled-components'
 
 const Nav = styled.div`
-background-color:rgb(0,0,255);
-    opacity:0.6;
+    background-color:background-color: #000000;
+    background-image: linear-gradient(147deg, #000000 0%, #04619f 74%);
+    // opacity:0.6; 
     color: white;
-    position: center;
-    padding: 10px;
+    text-align: center;
+    width:100%;
+    padding-block: 1rem;
     
 `;
 
 const Title = styled.h3`
-    opacity: 0.9
+    opacity: 0.9;
+    margin-left: 165%;
+    width: 8em;
+    text-align: center;
+    
     
 `
 

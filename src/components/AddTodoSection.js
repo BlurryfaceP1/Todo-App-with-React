@@ -23,8 +23,10 @@ const Input = styled.input`
     &::placeholder{opacity: 0.7; font-size: 0.9em}
 `;
 
+
+
 const Button = styled.button`
-    background: ${props => props.isButtonActive ? '#00baba' : 'gray'};
+    background: ${props => props.isButtonActive ? '#000000' : 'gray'};
     padding: 15px 32px;
     color: white;
     box-shadow: ${props => props.isButtonActive ? '3px 3px 10px 2px #aaa' : ''};
@@ -32,6 +34,7 @@ const Button = styled.button`
     transition: 0.16s all;
     text-align: center;
     text-decoration: none;
+    margin-left: 25%;
     
     
     &:hover,
